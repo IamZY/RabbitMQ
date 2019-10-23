@@ -43,3 +43,25 @@ MQ作为消息中间件最主要的作用就是系统之间的信息传递进行
 + chown rabbitmq:rabbitmq /var/lib/rabbitmq/.erlang.cookie
   启用服务
 + 防火墙放行5672/15672端口
+
+## 常用命令
+
++ 启动
+
+  > // 前台启动
+  >
+  > rabbitmq-server
+  >
+  > // 后台启动
+  >
+  > rabbitmq-server detached
+
++ 关闭
+
+  > rabbitmqctl stop
+
++ 终止与启动应用
+
+  >rabbitmqctl start_app
+  >
+  >rabbitmqctl stop_app
