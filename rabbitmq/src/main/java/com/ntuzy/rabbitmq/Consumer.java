@@ -1,5 +1,7 @@
 package com.ntuzy.rabbitmq;
 
+import com.ntuzy.rabbitmq.utils.RabbitConstant;
+import com.ntuzy.rabbitmq.utils.RabbitUtils;
 import com.rabbitmq.client.*;
 
 import java.io.IOException;
@@ -7,25 +9,17 @@ import java.util.concurrent.TimeoutException;
 
 public class Consumer {
     public static void main(String[] args) throws IOException, TimeoutException {
-        // 用于创建MQ的物理连接
-        ConnectionFactory connectionFactory = new ConnectionFactory();
-        connectionFactory.setHost("127.0.0.1");
-        // 5672 是默认端口号
-        connectionFactory.setPort(5672);
-        connectionFactory.setUsername("guest");
-        connectionFactory.setPassword("guest");
-        connectionFactory.setVirtualHost("/test");
 
         // MQ底层通信 物理连接
-        Connection connection = connectionFactory.newConnection();
+        Connection connection = RabbitUtils.getConnection();
 
         // 创建通道
         Channel channel = connection.createChannel();
-        channel.queueDeclare("helloworld", false, false, false, null);
+        channel.queueDeclare(RabbitConstant.QUEUE_HELLOWORLD, false, false, false, null);
         // 创建一个消息消费
         // 是否自动确认收到消息 false 代表手动编程确认消息  MQ推荐做法
         // 第三个参数传入DefaultConsumer的实现类
-        channel.basicConsume("helloworld", false, new Receiver(channel));
+        channel.basicConsume(RabbitConstant.QUEUE_HELLOWORLD, false, new Receiver(channel));
 
 
 
