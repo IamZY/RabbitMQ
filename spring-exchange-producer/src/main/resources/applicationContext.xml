@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/rabbit http://www.springframework.org/schema/rabbit/spring-rabbit.xsd">
+
+    <rabbit:connection-factory id="connectionFactory" host="127.0.0.1" port="5672" username="guest" password="guest"
+                               virtual-host="/test"/>
+
+    <!--
+        fanout direct topic-exchange
+        声明一个名为topicExchange的topic交换机 如果不存在就自动创建
+        -->
+    <rabbit:topic-exchange name="topicExchange" auto-declare="true"></rabbit:topic-exchange>
+
+    <!--  Spring 为我们提供了rabbitTemplate 对象来简化生产者发送数据的过程  对常用的方法进行创建-->
+    <rabbit:template id="template" connection-factory="connectionFactory" exchange="topicExchange"></rabbit:template>
+
+
+    <!-- 在生产者中配置Template对象 用于发送数据 -->
+    <bean id="newsProducer" class="com.ntuzy.rabbit.exchange.NewsProducer">
+        <property name="rabbitTemplate" ref="template"></property>
+    </bean>
+
+    <!-- rabbitmq admin对象用于创建绑定管理队列与交换机 -->
+    <rabbit:admin id="rabbitAdmin" connection-factory="connectionFactory"></rabbit:admin>
+
+</beans>

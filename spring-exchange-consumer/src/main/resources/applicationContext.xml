@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/rabbit http://www.springframework.org/schema/rabbit/spring-rabbit.xsd">
+
+    <rabbit:connection-factory id="connectionFactory" host="127.0.0.1" port="5672" username="guest" password="guest"
+                               virtual-host="/test"/>
+
+
+    <rabbit:admin connection-factory="connectionFactory"></rabbit:admin>
+    <!--    创建队列-->
+    <rabbit:queue name="topicQueue" auto-declare="true" auto-delete="false" durable="false"
+                  exclusive="false"></rabbit:queue>
+    <!--    交换机与队列绑定 并指明筛选条件-->
+    <rabbit:topic-exchange name="topicExchange" auto-declare="true">
+        <rabbit:bindings>
+            <rabbit:binding pattern="china.*" queue="topicQueue"></rabbit:binding>
+        </rabbit:bindings>
+    </rabbit:topic-exchange>
+
+    <!--    启动消费者后 Spring底层自动监听对应的topicQueue数据 一旦有新的消息进来 自动传入到consumer Bean的recv方法参数中对应的News包中进行下一步处理-->
+    <rabbit:listener-container connection-factory="connectionFactory">
+        <rabbit:listener ref="consumer" method="recv" queue-names="topicQueue"></rabbit:listener>
+    </rabbit:listener-container>
+
+    <bean id="consumer" class="com.ntuzy.rabbitmq.NewsConsumer"></bean>
+
+</beans>

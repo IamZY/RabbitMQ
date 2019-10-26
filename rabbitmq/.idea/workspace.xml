@@ -2,30 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50ea7545-b05f-4a28-b4c5-6a0112cbf43d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/pubsub/Baidu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/pubsub/Sina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/pubsub/WeatherBureau.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/routing/Baidu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/routing/Sina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/routing/WeatherBureau.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/topic/Baidu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/topic/Sina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/topic/WeatherBureau.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/utils/RabbitConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/utils/RabbitUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/workQueue/OrderSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/workQueue/SMS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/workQueue/SNSServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/workQueue/SNSServer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/workQueue/SNSServer3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/confirm/Baidu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/confirm/Sina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/confirm/WeatherBureau.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ntuzy/rabbitmq/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ntuzy/rabbitmq/Consumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ntuzy/rabbitmq/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ntuzy/rabbitmq/Producer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ntuzy/rabbitmq/Receiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ntuzy/rabbitmq/Receiver.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,67 +17,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/workQueue/OrderSystem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="26" lean-forward="true" selection-end-line="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/workQueue/SNSServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="18" column="18" selection-end-line="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/workQueue/SNSServer2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/routing/WeatherBureau.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/utils/RabbitConstant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+            <state relative-caret-position="240">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/routing/Sina.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/utils/RabbitUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+            <state relative-caret-position="336">
+              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,26 +45,70 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/topic/Sina.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="18" column="97" selection-start-line="18" selection-start-column="97" selection-end-line="18" selection-end-column="97" />
+            <state relative-caret-position="240">
+              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/topic/WeatherBureau.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/confirm/Sina.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+            <state relative-caret-position="96">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/confirm/WeatherBureau.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="43" column="44" lean-forward="true" selection-end-line="65" />
+              <folding>
+                <element signature="e#1683#1985#0" expanded="true" />
+                <element signature="e#1984#1985#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.3.0/amqp-client-5.3.0.jar!/com/rabbitmq/client/Return.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+              <folding>
+                <element signature="e#1173#1174#0" expanded="true" />
+                <element signature="e#1205#1206#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.3.0/amqp-client-5.3.0.jar!/com/rabbitmq/client/Channel.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/confirm/Baidu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="20" column="89" selection-start-line="20" selection-start-column="89" selection-end-line="20" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/topic/Baidu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="312">
+              <caret line="17" column="16" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -131,7 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/routing/Baidu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="336">
               <caret line="18" column="20" selection-end-line="31" />
             </state>
           </provider>
@@ -172,6 +157,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/topic/WeatherBureau.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/topic/Sina.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/topic/Baidu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/confirm/Baidu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/confirm/WeatherBureau.java" />
       </list>
     </option>
   </component>
@@ -194,6 +181,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,29 +244,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ntuzy" type="462c0819:PsiDirectoryNode" />
               <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="pubsub" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ntuzy" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="routing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ntuzy" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="topic" type="462c0819:PsiDirectoryNode" />
+              <item name="confirm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
@@ -292,32 +259,19 @@
             </path>
             <path>
               <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ntuzy" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="workQueue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/topic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/confirm" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -329,6 +283,7 @@
       <recent name="com.ntuzy.rabbitmq.workQueue" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\src\RabbitMQ\rabbitmq\src\main\java\com\ntuzy\rabbitmq\confirm" />
       <recent name="D:\src\RabbitMQ\rabbitmq\src\main\java\com\ntuzy\rabbitmq\topic" />
       <recent name="D:\src\RabbitMQ\rabbitmq\src\main\java\com\ntuzy\rabbitmq\routing" />
     </key>
@@ -345,13 +300,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WeatherBureau">
-    <configuration name="Baidu (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ntuzy.rabbitmq.routing.Baidu" />
+  <component name="RunManager" selected="Application.WeatherBureau (2)">
+    <configuration name="Baidu (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ntuzy.rabbitmq.topic.Baidu" />
       <module name="rabbitmq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ntuzy.rabbitmq.routing.*" />
+          <option name="PATTERN" value="com.ntuzy.rabbitmq.topic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -359,12 +314,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Baidu (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ntuzy.rabbitmq.topic.Baidu" />
+    <configuration name="Baidu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ntuzy.rabbitmq.confirm.Baidu" />
       <module name="rabbitmq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ntuzy.rabbitmq.topic.*" />
+          <option name="PATTERN" value="com.ntuzy.rabbitmq.confirm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -385,12 +340,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeatherBureau (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ntuzy.rabbitmq.routing.WeatherBureau" />
+    <configuration name="WeatherBureau (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ntuzy.rabbitmq.confirm.WeatherBureau" />
       <module name="rabbitmq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ntuzy.rabbitmq.routing.*" />
+          <option name="PATTERN" value="com.ntuzy.rabbitmq.confirm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -413,11 +368,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WeatherBureau (2)" />
+        <item itemvalue="Application.Baidu" />
         <item itemvalue="Application.WeatherBureau" />
         <item itemvalue="Application.Sina" />
         <item itemvalue="Application.Baidu (2)" />
-        <item itemvalue="Application.WeatherBureau (1)" />
-        <item itemvalue="Application.Baidu (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -431,48 +386,49 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571901957566</updated>
-      <workItem from="1571901958895" duration="10133000" />
+      <workItem from="1571901958895" duration="10289000" />
+      <workItem from="1572059147005" duration="1833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10133000" />
+    <option name="totallyTimeSpent" value="12122000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17430703" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17590618" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.329718" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Word Book" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,16 +442,6 @@
           <folding>
             <element signature="e#388#389#0" expanded="true" />
             <element signature="e#427#428#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/utils/RabbitUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -597,8 +543,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/workQueue/OrderSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="26" lean-forward="true" selection-end-line="33" />
+        <state relative-caret-position="432">
+          <caret line="26" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -607,7 +553,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/workQueue/SNSServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="336">
           <caret line="18" column="18" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -618,56 +564,109 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/workQueue/SNSServer2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/routing/WeatherBureau.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/routing/Baidu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="18" column="20" selection-end-line="31" />
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/routing/Sina.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/utils/RabbitConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+        <state relative-caret-position="456">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/topic/WeatherBureau.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/topic/Sina.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="18" column="97" selection-start-line="18" selection-start-column="97" selection-end-line="18" selection-end-column="97" />
+        <state relative-caret-position="360">
+          <caret line="24" column="25" selection-end-line="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/topic/Baidu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="312">
+          <caret line="17" column="16" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/routing/Baidu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="18" column="20" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/topic/Sina.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/confirm/Sina.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/confirm/Baidu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="20" column="89" selection-start-line="20" selection-start-column="89" selection-end-line="20" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/utils/RabbitUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/utils/RabbitConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.3.0/amqp-client-5.3.0.jar!/com/rabbitmq/client/Channel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.3.0/amqp-client-5.3.0.jar!/com/rabbitmq/client/Return.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+          <folding>
+            <element signature="e#1173#1174#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntuzy/rabbitmq/confirm/WeatherBureau.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="43" column="44" lean-forward="true" selection-end-line="65" />
+          <folding>
+            <element signature="e#1683#1985#0" expanded="true" />
+            <element signature="e#1984#1985#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
