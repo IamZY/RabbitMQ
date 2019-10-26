@@ -748,6 +748,8 @@ public class WeatherBureau {
 
 ### RabbitAdmin
 
+## Springboot整合Rabbitmq
+
 
 
 
