@@ -750,6 +750,34 @@ public class WeatherBureau {
 
 ## Springboot整合Rabbitmq
 
+## RabbitMQ集群架构模式
+
+![1572222257320](https://github.com/IamZY/RabbitMQ/blob/master/images/1572222257320.png)
+
++ 主备模式
+
+  一主一备，一台干活一台备用区别于主从
+
++ 镜像模式（重点）
+
+  所有的设备中的数据都是同步的
+
++ 远程模式
+
+  把消息进行不同数据中心的复制工作 可以跨地域的让两个mq集群互联
+
++ 多活模式
+
+  异地数据的复制，可以实现持续的可靠的AMQP数据通信，多活模式在实际配置与应用非常的简单
+
+
+
+
+
+
+
+
+
 
 
 
